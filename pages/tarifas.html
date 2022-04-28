@@ -6,149 +6,197 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Traducere</title>
         <link rel="shortcut icon" href="../images/logomorado.png">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
         <link rel="stylesheet" href="../css/style.css"/>
     </head>
     <body>
-        <div>
-            <header class="encabezado">
-                <a href="../index.html"> <img class="imagenLogo" src="../images/logomorado.png" alt="logo" title="Traducere"> </a>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="tarifas.html">Tarifas</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+        <div class="container-fluid gradiente">
+            <header class="row">
+                <div class="col-lg-1">
+                    <a href="../index.html"> <img class="imagenLogo" src="../images/logomorado.png" alt="logo" title="Traducere"> </a>
+                </div>
+                <div class="row col-lg-7">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="tarifas.html">Tarifas</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
                         </ul>
-                </nav>
+                    </nav>
+                </div>
             </header>
-            <h1>Tarifas</h1>
+            <h1 data-aos="flip-up">Tarifas</h1>
             <p class="textoPar">Nuestras tarifas se rigen por lo estipulado por el Colegio de Traductores de Tucumán.</p>
-            <a href="https://colegiotraductorestuc.com.ar/" target="_blank" class="textoPar" class="colegio">Colegio de Traductores de Tucumán</a>
-            <section>
-            <div>
-                <h2 class="textoSubtitulo">Traducciones de carácter público</h2>
-                <table class="estiloTabla">
-                    <tr>
-                        <th>Tipo de Documento</th>
-                        <th>Precio por página al Español</th>
-                        <th>Precio por páginal al Inglés</th>
-                    </tr>
-                    <tr>
-                        <td>Partidas, pasaportes, certificados y demás documentos personales</td>
-                        <td>$2640</td>
-                        <td>$3180</td>
-                    </tr>
-                    <tr>
-                        <td>Programas de estudios, certificados analíticos, diplomas y demás documentos relacionados con la educación</td>
-                        <td>$2820</td>
-                        <td>$3540</td>
-                    </tr>
-                    <tr>
-                        <td>Poderes, escrituras, testamentos, actas y demás documentos notariales y demás documentos de índole similar</td>
-                        <td>$3020</td>
-                        <td>$4000</td>
-                    </tr>
-                    <tr>
-                        <td>Papeles de comercio, contratos, balances, estatutos, actas de asamblea/directorio y demás documentos societarios; estudios y documentos técnicos y científicos; patentes de invención; sentencias, expedientes judiciales, exhortos, oficios</td>
-                        <td>$3200</td>
-                        <td>$3960</td>
-                    </tr>
+            <a href="https://colegiotraductorestuc.com.ar/" target="_blank" class="textoPar link">Colegio de Traductores de Tucumán</a>
+            <h2 class="textoSubtitulo">Traducciones de carácter público</h2>
+            <div class="table-responsive estiloTabla">
+                <table class="table table-hover">
+                    <thead class="encabezadoTabla">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Tipo de Documento</th>
+                            <th scope="col">Precio por página al Español</th>
+                            <th scope="col">Precio por páginal al Inglés</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Partidas, pasaportes, certificados y demás documentos personales</td>
+                                <td>$2640</td>
+                                <td>$3180</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Programas de estudios, certificados analíticos, diplomas y demás documentos relacionados con la educación</td>
+                                <td>$2820</td>
+                                <td>$3540</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Poderes, escrituras, testamentos, actas y demás documentos notariales y demás documentos de índole similar</td>
+                                <td>$3020</td>
+                                <td>$4000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Papeles de comercio, contratos, balances, estatutos, actas de asamblea/directorio y demás documentos societarios; estudios y documentos técnicos y científicos; patentes de invención; sentencias, expedientes judiciales, exhortos, oficios</td>
+                                <td>$3200</td>
+                                <td>$3960</td>
+                            </tr>
+                        </tbody>
                 </table>
             </div>
-            <div>
-                <h2 class="textoSubtitulo">Traducciones sin carácter público</h2>
-                <table class="estiloTabla">
-                    <tr>
-                        <th>Tipo de Documento</th>
-                        <th>Precio por página al Español</th>
-                        <th>Precio por páginal al Inglés</th>
-                    </tr>
-                    <tr>
-                        <td>Aranceles por palabra (mínimo: importe equivalente a 250 palabras, sin perjuicio de que se trate de un texto de menor extensión)</td>
-                        <td>$5,40</td>
-                        <td>$6,60</td>
+            <h2 class="textoSubtitulo">Traducciones sin carácter público</h2>
+            <div class="table-responsive estiloTabla">
+                <table class="table table-hover">
+                    <thead class="encabezadoTabla">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Tipo de Documento</th>
+                            <th scope="col">Precio por página al Español</th>
+                            <th scope="col">Precio por páginal al Inglés</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Aranceles por palabra (mínimo: importe equivalente a 250 palabras, sin perjuicio de que se trate de un texto de menor extensión)</td>
+                                <td>$5,40</td>
+                                <td>$6,60</td>
+                            </tr>
+                        </tbody>
                 </table>
             </div>
-            <div>
-                <h2 class="textoSubtitulo">Subtitulación</h2>
-                <table class="estiloTabla">
-                    <tr>
-                        <th>Tipo de Subtítulo</th>
-                        <th>Precio por minuto de video al Español</th>
-                        <th>Precio por minuto de video al Inglés</th>
-                    </tr>
-                    <tr>
-                        <td>Traducción y adaptación para doblaje: Incluye redactar del guion con tiempos de entrada de los diálogos y personajes.</td>
-                        <td>USD 4,20</td>
-                        <td>USD 5,10</td>
-                    </tr>
-                    <tr>
-                        <td>Traducción para subtitulado: Armar los subtítulos en Word, sin temporizar</td>
-                        <td>USD 4,20</td>
-                        <td>USD 5,10</td>
-                    </tr>
-                    <tr>
-                        <td>Subtitulado en plantilla: Traducir sobre un archivo de subtítulos ya temporizados</td>
-                        <td>3 USD - 4 USD</td>
-                        <td>3,50 USD - 5 USD</td>
-                    </tr>
-                    <tr>
-                        <td>Subtitulado y temporización: También llamado "originación" u "origination". Traducción, redacción y temporizado de los subtítulos con software especializado.</td>
-                        <td>USD 5,30</td>
-                        <td>USD 6,40</td>
-                    </tr>
+            <h2 class="textoSubtitulo">Subtitulación</h2>
+            <div class="table-responsive estiloTabla">
+                <table class="table table-hover">
+                    <thead class="encabezadoTabla">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Tipo de Subtítulo</th>
+                            <th scope="col">Precio por minuto al Español</th>
+                            <th scope="col">Precio por minuto al Inglés</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Traducción y adaptación para doblaje: Incluye redactar del guion con tiempos de entrada de los diálogos y personajes.</td>
+                                <td>USD 4,20</td>
+                                <td>USD 5,10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Traducción para subtitulado: Armar los subtítulos en Word, sin temporizar</td>
+                                <td>USD 4,20</td>
+                                <td>USD 5,10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Subtitulado en plantilla: Traducir sobre un archivo de subtítulos ya temporizados</td>
+                                <td>USD 3</td>
+                                <td>USD 5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Subtitulado y temporización: También llamado "originación" u "origination". Traducción, redacción y temporizado de los subtítulos con software especializado.</td>
+                                <td>USD 5,30</td>
+                                <td>USD 6,40</td>
+                            </tr>
+                        </tbody>
                 </table>
             </div>
-            <div>
-                <h2 class="textoSubtitulo">Interpretación</h2>
-                <table class="estiloTabla">
-                    <tr>
-                        <th>Tipo de Interpretación</th>
-                        <th>Mínimo por Intervención</th>
-                        <th>Media Jornada (4 Horas)</th>
-                        <th>Jornada Completa (8 Horas)</th>
-                        <th>Horas extras</th>
-                    </tr>
-                    <tr>
-                        <td>Honorarios de interpretación General</td>
-                        <td>$6.340</td>
-                        <td>$11.033</td>
-                        <td>$25.620</td>
-                        <td>$3.557</td>
-                    </tr>
-                    <tr>
-                        <td>Honorarios de Interpretación Simultanea y Consecutiva de Congresos, Conferencias</td>
-                        <td>--</td>
-                        <td>$30828</td>
-                        <td>$25.620</td>
-                        <td>$5126</td>
-                    </tr>
-                    <tr>
-                        <td>En escribanías, Registro Civil y Dependencias Públicas (Aduanas, Aeropuertos, etc)</td>
-                        <td>$17.000 por hora o fracción</td>
-                        <td>--</td>
-                        <td>--</td>
-                        <td>--</td>
-                    </tr>
-                    <tr>
-                        <td>Actuación como Intérprete Judicial</td>
-                        <td>Por hora (mínimo: 2 horas) $ 26.700</td>
-                        <td>--</td>
-                        <td>--</td>
-                        <td>--</td>
-                    </tr>
+            <h2 class="textoSubtitulo">Interpretación</h2>
+            <div class="table-responsive estiloTabla">
+                <table class="table table-hover">
+                    <thead class="encabezadoTabla">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Tipo de Interpretación</th>
+                            <th scope="col">Mínimo por Intervención</th>
+                            <th scope="col">Media Jornada (4 Horas)</th>
+                            <th scope="col">Jornada Completa (8 Horas)</th>
+                            <th scope="col">Horas Extras</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Honorarios de interpretación General</td>
+                                <td>$6.340</td>
+                                <td>$11.033</td>
+                                <td>$25.620</td>
+                                <td>$3.557</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Honorarios de Interpretación Simultanea y Consecutiva de Congresos, Conferencias</td>
+                                <td>--</td>
+                                <td>$30.828</td>
+                                <td>$25.620</td>
+                                <td>$5126</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>En escribanías, Registro Civil y Dependencias Públicas (Aduanas, Aeropuertos, etc)</td>
+                                <td>$17.000 por hora o fracción</td>
+                                <td>--</td>
+                                <td>--</td>
+                                <td>--</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Actuación como Intérprete Judicial</td>
+                                <td>Por hora (mínimo: 2 horas) $26.700</td>
+                                <td>--</td>
+                                <td>--</td>
+                                <td>--</td>
+                            </tr>
+                        </tbody>
                 </table>
             </div>
-            <div>
-                <footer>
+            <footer class="row">
+                <div class="col-lg-3">
                     <a href="../index.html"><img class="imagenLogo" src="../images/logomorado.png" alt="logo" title="Traducere"/></a>
-                    <a href="contacto.html">Contacto</a>
-                    <p>Created by ccast</p>
+                </div>
+                <div class="col-lg-3">
+                    <a href="pages/contacto.html">Contacto</a>
+                </div>
+                <div class="col-lg-3">
+                    <p>Created by ccast89</p>
+                </div>
+                <div class="col-lg-3">
                     <p>Todos los derechos reservados</p>
-                </footer>
-            </div>
+                </div>
+            </footer>
         </section>
         </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

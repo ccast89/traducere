@@ -7,24 +7,29 @@
     <title>Traducere</title>
     <link rel="shortcut icon" href="images/logomorado.png"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <div>
-        <header>
-            <a href="index.html"><img class="imagenLogo" src="images/logomorado.png" alt="logo" title="Traducere"/><a>
-            <nav class="navBar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="pages/servicios.html">Servicios</a></li>
-                    <li><a href="pages/tarifas.html">Tarifas</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <div class="container-fluid gradiente">
+        <header class="row">
+            <div class="col-lg-1 col-md-2 col-sm-12">
+                <a href="index.html"> <img class="imagenLogo" src="images/logomorado.png" alt="logo" title="Traducere"> </a>
+            </div>
+            <div class="col-lg-11 col-md-10 col-sm-12">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="pages/servicios.html">Servicios</a></li>
+                        <li><a href="pages/tarifas.html">Tarifas</a></li>
+                        <li><a href="pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <h1 data-aos="flip-up" class="bgTitulo">Traducere</h1>
-        <main>
+        <h1 data-aos="flip-up">Traducere</h1>
+        <main class="row">
             <h2 class="textoSubtitulo">Nuestra Empresa</h2>   
             <section>
                 <p class="textoPar">
@@ -38,16 +43,23 @@
                 </p>
             </section>
         </main>
-        <footer class="pie">
-            <a href="index.html"><img class="imagenLogo" src="images/logomorado.png" alt="logo" title="Traducere"/></a>
-            <a href="pages/contacto.html">Contacto</a>
-            <p>Created by ccast</p>
-            <p>Todos los derechos reservados</p>
+        <footer class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <a href="index.html"><img class="imagenLogo" src="images/logomorado.png" alt="logo" title="Traducere"/></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <a href="pages/contacto.html">Contacto</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p>Created by ccast89</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p>Todos los derechos reservados</p>
+            </div>
         </footer>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script>AOS.init();</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html{
     font-size: 62.5%;
 }
@@ -10,15 +5,7 @@ html{
     font-family: moontime;
     src: url("../fonts/MoonTime.ttf");
 }
-@font-face {
-    font-family: roboto;
-    src: url("../fonts/RobotoCondensed-Regular.ttf");
-}
 header{
-    background-color: #301b3fd3;
-    padding: 10px;
-    width: 100%;
-    height: 75px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,52 +19,38 @@ header a{
 }
 nav{
     display: flex;
-    flex-direction: row;
     justify-content: right;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: white;
     flex-flow: wrap;
 }
 header ul li{
+    color: white;
     list-style: none;
     display: inline;
     font-weight: bold;
-    text-transform: uppercase;
     text-shadow: 2px 2px 2px #B4A5A5;
     padding: 8px;
     align-items: center;
 }
 header ul li:hover{
+    color: white;
     cursor: pointer;
-    color: #3C415C;
     transition: 1s;
     text-shadow: none;
-    grid-column: 1/5;
-}
-body{
-    background-color: #a98cb1;
-    font-family: roboto, sans-serif;
 }
 .imagenLogo{
     width: 70px;
     height: 70px;
+    margin: 10px;
 }
 h1{
     color: #ffffff;
     text-align:center;
     font-family: moontime, sans-serif;
-    font-size: 15rem;
-    margin: auto;
-    text-shadow: #3C415C;
-    grid-area: title;
-}
-.bgTitulo{
-    background-image: url(../images/open.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 75vh;
+    font-size: 22rem;
+    justify-items: center;
 }
 .textoSubtitulo{
     font-size: 3rem;
@@ -86,22 +59,6 @@ h1{
     text-align: left;
     margin:10px;
 }
-h2{
-    position: relative;
-    animation-name: mover;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-@keyframes mover{
-    0%{
-        left: 0px;
-        top: 0px;}
-    100%{
-        left: 50px;
-        top: 0px;
-    }
-}
-
 .textoPar{
     font-size: 2rem;
     word-spacing: 5px;
@@ -110,37 +67,22 @@ h2{
     margin: 10px;
 }
 article{
-    grid-column: span 3;
     align-items: center;
     margin: 20px;
 }
-.tarjetas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: "1fr 1fr 1fr";
-    grid-template-rows: 1;
-    background-image: url(../images/oficinagrande.jpg);
-    width: 100%;
-}
 .cards{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 300px;
-    border: 1px solid  #301B3F;
-    border-radius: 30px;
+    align-content: space-between;
+    width: 400px;
     margin: 10px;
-    background-color: #3C415C;
+    padding: 5px;
+    background-color: #D8CBBB;
+    justify-content:center
 }
 .fotoTraductora{
-    width: 300px;
-    height: 200px;
     border-radius: 30px;
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 .traductoras{
     margin: 5px;
@@ -148,80 +90,51 @@ article{
     font-size: 20px;
     color: white;
 }
-/* aqui comienzan las clases de Servicios */
-.servicios{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-}
-.serviciosHijo{
-    justify-self: center;
-    align-self: center;
-}
-.textoServicios{
-    font-size: 3rem;
-    word-spacing: 5px;
-    line-height: 70px;
-    font-weight: bold;
-    margin: 15px;
-}
 /* aquí comienzan las clases de Tarifas */
 div a{
     cursor: pointer;
 }
 .estiloTabla{
-    width: 500px;
-    border: solid 1px #301B3F;
-    border-radius: 15px;
-    padding: 10px;
+    display: flex;
+    align-items: center;
     text-align:left;
     margin: 10px;
     font-size: 1.8rem;
+    background-color: #D8CBBB;
+    border: #301B3F solid;
+}
+.encabezadoTabla{
+    background-color: #BB8FA9;
+}
+.link{
+    color: black;
 }
 /* aquí comienzan las clases de Contacto */
 .gradiente{
-    background-image: linear-gradient(to bottom, #A267AC, #CE7BB0);
+    background-image: linear-gradient(to bottom, #560764, #BB8FA9, #D8CBBB, #EEEEEE);
 }
 .contacto{
-    width: 500px;
-    border: solid 1px #301B3F;
-    border-radius: 15px;
     padding: 10px;
     line-height: 20px;
     margin: 10px;
     line-height: 30px;
-    font-size: 1.8rem;
+    font-size: 2rem;
+}
+.botonMorado{
+    background-color: #726A95;
+}
+.botonGris{
+    background-color: #B4A5A5;
 }
 footer{
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #B4A5A5;
     padding: 10px;
     color:#301B3F;
     font-size: 1.5rem;
-    grid-area: pie;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 footer a{
     color:#301B3F;
     text-decoration: none;
-}
-@media (max-width:360px){
-    html{
-        font-size: 55%
-    }
-    .tarjetas{
-        flex-direction: column;
-    }
-    .servicios{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer{
-        flex-direction: column;
-    }
 }

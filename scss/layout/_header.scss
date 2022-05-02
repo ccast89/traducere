@@ -1,0 +1,42 @@
+// HEADER
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+        color: white;
+            .imagenLogo{
+                width: 70px;
+                height: 70px;
+                margin: 10px;
+            }
+            ul{
+                a{
+                    display: flex;
+                    display: inline;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 2rem;
+                    color: white;
+                    font-weight: bold;
+                    text-shadow: 2px 2px 2px #B4A5A5;
+                    text-decoration:none;
+                    list-style: none;
+                    padding: 8px;
+                }
+                li{
+                    &:hover{
+                        color: white;
+                        cursor: pointer;
+                        transition: 1s;
+                        text-shadow: none;
+                    }
+                }
+                
+            }
+    }
+}

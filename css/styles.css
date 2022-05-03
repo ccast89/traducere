@@ -112,3 +112,10 @@ footer {
 
 .botonGris {
   background-color: #B4A5A5; }
+
+.contacto {
+  padding: 10px;
+  line-height: 20px;
+  margin: 10px;
+  line-height: 30px;
+  font-size: 2rem; }

@@ -142,3 +142,8 @@ footer a{
     color:#301B3F;
     text-decoration: none;
 }
+@media (min-width: 360px) {
+        h1{
+            flex-wrap: wrap;
+        }
+    }

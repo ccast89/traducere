@@ -13,10 +13,6 @@ header {
     align-items: center;
     font-size: 2rem;
     color: white; }
-    header nav .imagenLogo {
-      width: 70px;
-      height: 70px;
-      margin: 10px; }
     header nav ul a {
       display: flex;
       display: inline;
@@ -33,12 +29,20 @@ header {
       color: white;
       cursor: pointer;
       transition: 1s;
-      text-shadow: none; }
+      text-shadow: none;
+      text-decoration: underline; }
+
+.imagenLogo {
+  width: 70px;
+  height: 70px;
+  margin: 10px; }
+
+div a {
+  cursor: pointer; }
 
 h1 {
   color: #ffffff;
   text-align: center;
-  font-family: peg;
   font-size: 10rem;
   justify-items: center; }
 
@@ -54,6 +58,9 @@ h1 {
   line-height: 22px;
   text-align: justify; }
 
+.gradiente {
+  background-image: linear-gradient(to bottom, #560764, #BB8FA9, #D8CBBB, #EEEEEE); }
+
 footer {
   padding: 10px;
   color: #301B3F;
@@ -64,3 +71,44 @@ footer {
   footer a {
     color: #301B3F;
     text-decoration: none; }
+
+.cards {
+  display: flex;
+  align-content: space-between;
+  width: 400px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #D8CBBB;
+  justify-content: center; }
+
+.fotoTraductora {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px; }
+
+.traductoras {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: white; }
+
+.estiloTabla {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 10px;
+  font-size: 1.8rem;
+  background-color: #D8CBBB;
+  border: #301B3F solid; }
+
+.encabezadoTabla {
+  background-color: #BB8FA9; }
+
+.link {
+  color: black; }
+
+.botonMorado {
+  background-color: #726A95; }
+
+.botonGris {
+  background-color: #B4A5A5; }

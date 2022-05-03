@@ -9,11 +9,6 @@ header{
         align-items: center;
         font-size: 2rem;
         color: white;
-            .imagenLogo{
-                width: 70px;
-                height: 70px;
-                margin: 10px;
-            }
             ul{
                 a{
                     display: flex;
@@ -34,9 +29,18 @@ header{
                         cursor: pointer;
                         transition: 1s;
                         text-shadow: none;
+                        text-decoration: underline;
                     }
                 }
                 
             }
     }
+}
+.imagenLogo{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+div a{
+    cursor: pointer;
 }

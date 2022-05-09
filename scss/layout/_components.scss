@@ -12,30 +12,32 @@
     padding: 10px;
     margin: 5px;
 }
-.traductoras{
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    color: white;
-}
 .estiloTabla{
     display: flex;
     align-items: center;
     text-align:left;
     margin: 10px;
-    font-size: 1.8rem;
+    font-size: 12rem;
     background-color: #D8CBBB;
     border: #301B3F solid;
 }
 .encabezadoTabla{
     background-color: #BB8FA9;
+    font-size: 5rem;
 }
 .link{
     color: black;
 }
-.botonMorado{
-    background-color: #726A95;
-}
-.botonGris{
-    background-color: #B4A5A5;
+// MAPAS
+$colores: ("primary":#726A95, "secondary":#B4A5A5);
+@each $botones, $color in $colores {
+    .btn-#{$botones}{
+        background-color: $color;
+        border-radius: 20%;
+        border-color:$color;
+        font-size: 1.5rem;
+        margin: 5px;
+        padding: 6px;
+    }
+    
 }

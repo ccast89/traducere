@@ -3,19 +3,21 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    img{
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
     nav{
-        display: flex;
-        justify-content: space-between;
         align-items: center;
         font-size: 2rem;
         color: white;
             ul{
-                a{
-                    display: flex;
+                li{
                     display: inline;
-                    justify-content: space-between;
+                    justify-content: right;
                     align-items: center;
-                    font-size: 2rem;
+                    font-size: 3rem;
                     color: white;
                     font-weight: bold;
                     text-shadow: 2px 2px 2px #B4A5A5;
@@ -25,7 +27,6 @@ header{
                 }
                 li{
                     &:hover{
-                        color: white;
                         cursor: pointer;
                         transition: 1s;
                         text-shadow: none;
@@ -36,10 +37,12 @@ header{
             }
     }
 }
-.imagenLogo{
-    width: 70px;
-    height: 70px;
-    margin: 10px;
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #301B3F;
 }
 div a{
     cursor: pointer;

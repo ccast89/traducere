@@ -16,10 +16,7 @@
     display: flex;
     align-items: center;
     text-align:left;
-    margin: 10px;
-    font-size: 12rem;
-    background-color: #D8CBBB;
-    border: #301B3F solid;
+    @include txt(tabla);
 }
 .encabezadoTabla{
     background-color: #BB8FA9;

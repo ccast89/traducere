@@ -1,11 +1,11 @@
 footer{
     @extend header;
-    padding: 10px;
-    color:#301B3F;
-    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px;
+    color:#301B3F;
+    font-size: 4rem;
     a{
         color:#301B3F;
         text-decoration: none;

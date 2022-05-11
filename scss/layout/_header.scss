@@ -17,7 +17,7 @@ header{
                 font-size: 2rem;
                 color: white;
                 li{
-                    display: inline;
+                    // display: inline;
                     justify-content: right;
                     align-items: center;
                     font-size: 3rem;
@@ -43,10 +43,14 @@ header{
 .nav-link{
     color: white;
     text-decoration: none;
-}
-.nav-link:hover{
-    color: #301B3F;
+    &:hover{
+        color: #301B3F;
+    }
 }
 div a{
     cursor: pointer;
+}
+.navbar-toggler{
+    color: white;
+    background-color: #B4A5A5;
 }

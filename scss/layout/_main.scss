@@ -1,7 +1,7 @@
 h1{
     color: #ffffff;
     text-align:center;
-    font-size: 10rem;
+    font-size: 8rem;
     justify-items: center;
     font-family: sp, serif;
 }
@@ -11,7 +11,7 @@ h1{
         line-height: 22px;
     }
     @if $seccion == subtitulo {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 70px;
         text-align: left;
     }

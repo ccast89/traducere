@@ -21,7 +21,6 @@ header, footer {
       font-size: 2rem;
       color: white; }
       header nav ul li, footer nav ul li {
-        display: inline;
         justify-content: right;
         align-items: center;
         font-size: 3rem;
@@ -40,17 +39,20 @@ header, footer {
 .nav-link {
   color: white;
   text-decoration: none; }
-
-.nav-link:hover {
-  color: #301B3F; }
+  .nav-link:hover {
+    color: #301B3F; }
 
 div a {
   cursor: pointer; }
 
+.navbar-toggler {
+  color: white;
+  background-color: #B4A5A5; }
+
 h1 {
   color: #ffffff;
   text-align: center;
-  font-size: 10rem;
+  font-size: 8rem;
   justify-items: center;
   font-family: sp, serif; }
 
@@ -60,7 +62,7 @@ h1 {
   text-align: justify; }
 
 .textoSubtitulo {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 70px;
   text-align: left; }
 

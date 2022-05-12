@@ -46,7 +46,8 @@ div a {
   cursor: pointer; }
 
 .navbar-toggler {
-  background-color: #B4A5A5; }
+  background-color: #B4A5A5;
+  color: #301B3F; }
 
 h1 {
   color: #ffffff;

@@ -39,7 +39,10 @@ h1{
     @include txt(subtitulo)
 }
 .textoPar{
-    @include txt(principal)
+    @include txt(principal);
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
 }
 .gradiente{
     background-image: linear-gradient(to bottom, #560764, #BB8FA9, #D8CBBB, #EEEEEE);

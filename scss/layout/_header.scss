@@ -1,13 +1,13 @@
 // HEADER
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    img{
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-    }
+        img{
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+        }
     nav{
         align-items: center;
         font-size: 2rem;
@@ -25,14 +25,13 @@ header{
                     text-shadow: 2px 2px 2px #B4A5A5;
                     text-decoration:none;
                     list-style: none;
-                    padding: 8px;
                 }
                 li{
                     &:hover{
                         cursor: pointer;
                         transition: 1s;
                         text-shadow: none;
-                        text-decoration: underline;
+                        text-decoration: underline, #B4A5A5;
                     }
                 }
                 
@@ -43,7 +42,7 @@ header{
     color: white;
     text-decoration: none;
     &:hover{
-        color: #301B3F;
+        color: #B4A5A5;
     }
 }
 div a{

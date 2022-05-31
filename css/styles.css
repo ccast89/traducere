@@ -8,6 +8,32 @@
   font-family: moontime;
   src: url("../fonts/MoonTime.ttf"); }
 
+.textos, .textoSubtitulo {
+  word-spacing: 5px;
+  margin: 5px;
+  text-align: justify; }
+
+.textoSubtitulo {
+  font-size: 4rem;
+  line-height: 70px;
+  text-align: left; }
+
+.btn-primary {
+  background-color: #726A95;
+  border-radius: 20%;
+  border-color: #726A95;
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 6px; }
+
+.btn-secondary {
+  background-color: #B4A5A5;
+  border-radius: 20%;
+  border-color: #B4A5A5;
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 6px; }
+
 header, footer {
   display: flex;
   justify-content: space-evenly;
@@ -19,7 +45,8 @@ header, footer {
   header nav, footer nav {
     align-items: center;
     font-size: 2rem;
-    color: white; }
+    color: white;
+    background-color: #261C2C; }
     header nav ul, footer nav ul {
       align-items: center;
       font-size: 2rem;
@@ -53,21 +80,11 @@ div a {
   color: #301B3F; }
 
 h1 {
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-size: 15rem;
   justify-items: center;
   font-family: moontime; }
-
-.textos, .textoSubtitulo {
-  word-spacing: 5px;
-  margin: 5px;
-  text-align: justify; }
-
-.textoSubtitulo {
-  font-size: 4rem;
-  line-height: 70px;
-  text-align: left; }
 
 .textoPar {
   font-size: 2rem;
@@ -76,8 +93,12 @@ h1 {
   margin: 10px;
   padding: 5px; }
 
-.gradiente {
-  background-image: linear-gradient(to bottom, #560764, #BB8FA9, #D8CBBB, #EEEEEE); }
+.bg {
+  background-color: #E9D5DA; }
+
+.wlc {
+  width: 100%;
+  height: 100vh; }
 
 footer {
   display: flex;
@@ -87,7 +108,7 @@ footer {
   margin: 10px;
   color: #D8CBBB;
   font-size: 4rem;
-  background-color: #301B3F; }
+  background-color: #261C2C; }
   footer a {
     color: #D8CBBB;
     text-decoration: none; }
@@ -111,32 +132,16 @@ footer {
   align-items: center;
   text-align: left;
   margin: 10px;
-  font-size: 12rem;
+  font-size: 11rem;
   background-color: #D8CBBB;
   border: #301B3F solid; }
 
 .encabezadoTabla {
   background-color: #BB8FA9;
-  font-size: 5rem; }
+  font-size: 4rem; }
 
 .link {
   color: black; }
-
-.btn-primary {
-  background-color: #726A95;
-  border-radius: 20%;
-  border-color: #726A95;
-  font-size: 1.5rem;
-  margin: 5px;
-  padding: 6px; }
-
-.btn-secondary {
-  background-color: #B4A5A5;
-  border-radius: 20%;
-  border-color: #B4A5A5;
-  font-size: 1.5rem;
-  margin: 5px;
-  padding: 6px; }
 
 .contacto {
   padding: 10px;

@@ -1,42 +1,9 @@
 h1{
-    color: #ffffff;
+    color: black;
     text-align:center;
     font-size: 15rem;
     justify-items: center;
     font-family: moontime;
-}
-@mixin txt($seccion){
-    @if $seccion == principal{
-        font-size: 2rem;
-        line-height: 22px;
-    }
-    @if $seccion == subtitulo {
-        font-size: 4rem;
-        line-height: 70px;
-        text-align: left;
-    }
-    @if $seccion == tabla{
-        margin: 10px;
-        font-size: 12rem;
-        background-color: #D8CBBB;
-        border: #301B3F solid;
-    }
-    @if $seccion == form{
-        padding: 10px;
-        line-height: 20px;
-        margin: 10px;
-        line-height: 30px;
-        font-size: 7rem;
-    }
-}
-.textos{
-    word-spacing: 5px;
-    margin: 5px;
-    text-align: justify;
-}
-.textoSubtitulo{
-    @extend .textos;
-    @include txt(subtitulo)
 }
 .textoPar{
     @include txt(principal);
@@ -44,6 +11,10 @@ h1{
     margin: 10px;
     padding: 5px;
 }
-.gradiente{
-    background-image: linear-gradient(to bottom, #560764, #BB8FA9, #D8CBBB, #EEEEEE);
+.bg{
+    background-color: #E9D5DA;
+}
+.wlc{
+    width: 100%;
+    height: 100vh;
 }

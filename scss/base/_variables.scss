@@ -1,0 +1,44 @@
+@mixin txt($seccion){
+    @if $seccion == principal{
+        font-size: 2rem;
+        line-height: 22px;
+    }
+    @if $seccion == subtitulo {
+        font-size: 4rem;
+        line-height: 70px;
+        text-align: left;
+    }
+    @if $seccion == tabla{
+        margin: 10px;
+        font-size: 11rem;
+        background-color: #D8CBBB;
+        border: #301B3F solid;
+    }
+    @if $seccion == form{
+        padding: 10px;
+        line-height: 20px;
+        margin: 10px;
+        line-height: 30px;
+        font-size: 7rem;
+    }
+}
+.textos{
+    word-spacing: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+.textoSubtitulo{
+    @extend .textos;
+    @include txt(subtitulo)
+}
+$colores: ("primary":#726A95, "secondary":#B4A5A5);
+@each $botones, $color in $colores {
+    .btn-#{$botones}{
+        background-color: $color;
+        border-radius: 20%;
+        border-color:$color;
+        font-size: 1.5rem;
+        margin: 5px;
+        padding: 6px;
+    }
+}

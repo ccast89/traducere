@@ -20,21 +20,8 @@
 }
 .encabezadoTabla{
     background-color: #BB8FA9;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .link{
     color: black;
-}
-// MAPAS
-$colores: ("primary":#726A95, "secondary":#B4A5A5);
-@each $botones, $color in $colores {
-    .btn-#{$botones}{
-        background-color: $color;
-        border-radius: 20%;
-        border-color:$color;
-        font-size: 1.5rem;
-        margin: 5px;
-        padding: 6px;
-    }
-    
 }
